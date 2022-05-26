@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+li {
+  list-style: none;
+}
+
+.my-row img {
+  max-width: 100%;
+  height: auto;
+}
+
+.my-row img:hover {
+  -webkit-transform: scale(1.009);
+          transform: scale(1.009);
+}
+
+.my-row .card_items {
+  padding: 25px;
+  text-align: center;
+}

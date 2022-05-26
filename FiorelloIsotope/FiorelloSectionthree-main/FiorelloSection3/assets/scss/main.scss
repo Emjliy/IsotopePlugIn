@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.category-filter {
+  .categories {
+    ul {
+      display: flex;
+      gap: 30px;
+
+      li {
+        cursor: pointer;
+        &:hover {
+          color: red;
+        }
+      }
+    }
+  }
+}
+
+.filter {
+  display: flex;
+
+  &:hover .filter-dropdown {
+    display: block;
+  }
+
+  .filter-dropdown {
+    // position: absolute;
+    display: none;
+    color: #737373;
+    background-color: rgb(168, 160, 160);
+    padding: 13px 20px;
+
+    h5 {
+      cursor: pointer;
+      font-weight: 500;
+    }
+
+    ul {
+      margin: 25px;
+
+      li {
+        // list-style: none;
+        line-height: 30px;
+      }
+    }
+  }
+}
+
+.flower-cards {
+  img {
+    max-width: 100%;
+    height: auto;
+
+    &:hover {
+      transform: scale(1.009);
+    }
+  }
+
+  .card_items {
+    padding: 25px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.category-filter .categories ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+.category-filter .categories ul li {
+  cursor: pointer;
+}
+
+.category-filter .categories ul li:hover {
+  color: red;
+}
+
+.filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.filter:hover .filter-dropdown {
+  display: block;
+}
+
+.filter .filter-dropdown {
+  display: none;
+  color: #737373;
+  background-color: #a8a0a0;
+  padding: 13px 20px;
+}
+
+.filter .filter-dropdown h5 {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.filter .filter-dropdown ul {
+  margin: 25px;
+}
+
+.filter .filter-dropdown ul li {
+  line-height: 30px;
+}
+
+.flower-cards img {
+  max-width: 100%;
+  height: auto;
+}
+
+.flower-cards img:hover {
+  -webkit-transform: scale(1.009);
+          transform: scale(1.009);
+}
+
+.flower-cards .card_items {
+  padding: 25px;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */

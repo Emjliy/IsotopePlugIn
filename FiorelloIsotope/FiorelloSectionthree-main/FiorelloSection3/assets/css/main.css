@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.sectionthree a,
+.sectionthree .text a {
+  text-decoration: none;
+  color: black;
+}
+
+.sectionthree a:hover,
+.sectionthree .text a:hover {
+  color: red;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.categoryList ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+.categoryList ul li {
+  list-style: none;
+}
+
+.row .div-space {
+  margin: 8px;
+}
+
+.row img {
+  max-width: 100%;
+  height: auto;
+}
+
+.row img:hover {
+  -webkit-transform: scale(1.009);
+          transform: scale(1.009);
+}
+
+.row .card_items {
+  padding: 25px;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
